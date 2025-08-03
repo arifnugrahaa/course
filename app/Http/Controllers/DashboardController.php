@@ -11,7 +11,7 @@ class DashboardController extends Controller
 
         $data = Material::where('status', 'published')->limit(6)->get();
 
-        return view('dashboard', [
+        return view('Dashboard', [
             'data' => $data
         ]);
     }
