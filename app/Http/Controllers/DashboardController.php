@@ -17,21 +17,21 @@ class DashboardController extends Controller
     }
 
     public function about() {
-        return view('about');
+        return view('About');
     }
 
     public function course(){
         $data = Material::where('status', 'published')->get();
-        return view('course', [
+        return view('Course', [
             'data'=> $data
         ]);
     }
 
     public function instruktur(){
-        return view('instructors');
+        return view('Instructors');
     }
 
     public function contact(){
-        return view('contact');
+        return view('Contact');
     }
 }
