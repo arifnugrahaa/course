@@ -1,6 +1,13 @@
 @extends('partials.main')
 
 @section('content')
+
+<!-- Mata Kuliah	: Rekayasa Perangkat Lunak
+Kelas	: IF401
+Prodi	: Informatika PJJ S1
+Nama Mahasiswa	: Arif Nugraha
+NIM	: 230401010015
+Dosen	: Riad Sahara, S.SI., M.T. -->
     <!-- Courses Hero Section -->
     <section id="courses-hero" class="courses-hero section light-background">
 
